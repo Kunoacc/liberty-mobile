@@ -29,7 +29,7 @@ class _AppState extends State<App> {
   Widget build(BuildContext context) {
     MaterialApp app(BuildContext context) => new MaterialApp(
       title: 'Liberty Devotional',
-      color: Colors.white,
+      color: primaryColor,
       theme: new ThemeData(
         accentColor: accentColor,
         primarySwatch: primarySwatch,

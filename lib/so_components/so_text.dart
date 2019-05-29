@@ -4,9 +4,9 @@ import 'package:liberty/so_constants/so_style.dart' show SoTextStyle;
 TextStyle font(double fontSize, Color color) =>
     SoTextStyle.font(fontSize: fontSize, color: color);
 
-TextStyle fontSize(double fontSize) => SoTextStyle.font(fontSize: fontSize);
+TextStyle fontSize(double fontSize) => SoTextStyle.font(fontSize: fontSize, isTitle: true);
 
-TextStyle fontColor(Color color) => SoTextStyle.font(color: color);
+TextStyle fontColor(Color color) => SoTextStyle.font(color: color, isTitle: true);
 
 TextStyle fontLight(double fontSize, bool isTitle, [Color color]) =>
     SoTextStyle.font(fontSize: fontSize,

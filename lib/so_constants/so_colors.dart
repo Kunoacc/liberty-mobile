@@ -4,9 +4,9 @@ import 'package:flutter/widgets.dart';
 class SoColors{
   SoColors._();
 
-  static const _basePrimary = 0x682C90;
-  static const _baseSecondary = 0X9F1F63;
-  static const _baseAccent = 0xFB6868;
+  static const _basePrimary = 0xFF682C90;
+  static const _baseSecondary = 0xFF9F1F63;
+  static const _baseAccent = 0xFFFB6868;
 
   static final MaterialColor purple = MaterialColor(
     _basePrimary,

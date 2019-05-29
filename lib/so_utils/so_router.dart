@@ -3,6 +3,7 @@ import 'package:liberty/so_utils/so_route_handlers.dart';
 
 class SoRoutes{
   static String root = '/';
+  static String home = '/home';
   static String login = '/login';
   static String downloads = '/downloads';
   static String favourites = '/favourites';
@@ -18,6 +19,7 @@ class SoRoutes{
     router.define(favourites, handler: handlers.favouritesHandler);
     router.define(player, handler: handlers.playerHandler);
     router.define(profile, handler: handlers.profileHandler);
+    router.define(home, handler: handlers.homeHandler);
   }
 
 }
